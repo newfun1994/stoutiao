@@ -23,6 +23,7 @@ elseif($key=="刘放"&&!$title&&!$detail){
 }
 else {
     $img = "img.jpg";
+
 }
 $url = "http://news.baidu.com/ns?word=".$key;
 
