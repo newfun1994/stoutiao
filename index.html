@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>上头条</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/body.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<form class="form-signin" method="get" action="toutiao.php">
+    <h2 class="form-signin-heading">百度新闻帮你上头题</h2>
+    <div class="form-group">
+        <label for="key" class="col-sm-2 control-label">关键字</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" name="key" id="key" placeholder="关键字">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="title" class="col-sm-2 control-label">新闻标题</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" name="title" id="title" placeholder="新闻标题">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="detail" class="col-sm-2 control-label">新闻概要</label>
+        <div class="col-sm-10">
+            <textarea type="text" class="form-control" rows="3" name="detail" id="detail" placeholder="新闻概要"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">上头条</button>
+        </div>
+    </div>
+
+    <!--关键字<input type="text" name="key"/><br>-->
+    <!--新闻标题<input type="text" name="title"/><br>-->
+    <!--新闻内容<input type="text" name="detail"/><br>-->
+    <!--<input type="submit" value="上头条"/>-->
+
+</form>
+</body>
+</html>
