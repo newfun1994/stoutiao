@@ -10,19 +10,20 @@ $key = $_GET['key'];
 $title = $_GET['title'];
 $detail = $_GET['detail'];
 if(!$key&&!$title&&!$detail){
-    $img = "img2.jpg";
+    $img = "img2.gif";
     $key = "高振华";
     $title = "高振华90后屌丝宅男成功赢取南大女神";
     $detail = "南京理工大学紫金学院12级计算机高振华同学，作为一个90后屌丝宅男,经过不懈的努力,终于用自己的真心打动了女神，成功赢取南大女神";
 }
 elseif($key=="刘放"&&!$title&&!$detail){
-    $img = "http://bbs.360safe.com/forum.php?mod=attachment&aid=MzI3NzIwOXw3NWUwYjg5NXwxNDQyNzkzNzI2fDk3MDk5NDJ8NjE1ODE3Mg%3D%3D&noupdate=yes";
+    $img = "img3.gif";
     $key = "刘放";
     $title = "刘放成功破解百度新闻";
     $detail = "在过去的8小时内，刘放同学彻夜未睡，经过了整整8个小时的艰苦奋斗，终于成功破解了百度新闻后台，并且实现了人人都能上头提的梦想";
 }
 else {
-    $img = "http://bbs.360safe.com/forum.php?mod=attachment&aid=MzI3NzIwOHw3NjYyMTlkOHwxNDQyNzkzNjEwfDk3MDk5NDJ8NjIyNzAwMg%3D%3D&noupdate=yes";
+    $img = "img1.gif";
+
 }
 $url = "http://news.baidu.com/ns?word=".$key;
 
